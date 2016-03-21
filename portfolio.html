@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home</title>
+        <title>Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,16 +20,15 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        
         <header>
             <div class="container flex-sb">
                 <h1><img class="logo" src="img/icons/logo.png" alt="Jetro"></h1>
                 <nav class="main-nav">
                     <ul class="flex">
-                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About <span>us</span></a></li>
                         <li><a href="blog.html">Blog</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a class="active" href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact <span>us</span></a></li>
                     </ul>
                 </nav>
@@ -37,63 +36,27 @@
         </header>
 
         <div class="main_content">
-            <section class="banner top-page-background">
+            <section class="page-title top-page-background">
                 <div class="container">
-                    <div class="active-banner">
-                        <img class="banner-image" src="img/banner.jpg" alt="banner">
-                        <img class="arrow-left" src="img/slider-arrow-left.png" alt="arrow-left">
-                        <img class="arrow-right" src="img/slider-arrow-right.png" alt="arrow-right">
-                        <article class="banner-description">
-                            <h2>Slide one</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque praesentium aut voluptas non cum dicta tempora sint quis. Necessitatibus maxime asperiores, aliquid ducimus.</p>
-                        </article>
-                    </div>
-                    <div class="banners flex-sb">
-                        <img src="img/banner1.jpg" alt="banner1">
-                        <img src="img/banner2.jpg" alt="banner2">
-                        <img src="img/banner3.jpg" alt="banner3">
-                        <img src="img/banner4.jpg" alt="banner4">
-                        <img src="img/banner5.jpg" alt="banner5">
-                        <img src="img/banner6.jpg" alt="banner6">
-                    </div>
+                    <p>Portfolio</p>
                 </div> <!-- End container -->
-            </section> <!-- End banner -->
-            <section class="features">
-                <div class="container flex-sb">
-                    <div class="feature">
-                        <div class="feature-title flex">
-                            <img src="img/icons/portfolio-icon.png" alt="portfolio-icon">
-                            <h2>Check out my latest portfolio items</h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi similique, enim nisi commodi at facere odio in laudantium vel vitae hic eligendi est accusantium sapiente consectetur praesentium sunt atque rerum ex possimus perferendis cumque velit. Cumque ipsum laudantium dolorum exercitationem aut, possimus facilis vel ab quod.</p>
-                        <button>More</button>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-title flex">
-                            <img src="img/icons/work-icon.png" alt="work-icon">
-                            <h2>Offer top notch quality work & services</h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nemo, illo voluptatum aspernatur modi, nam praesentium asperiores ad, natus sunt unde quod ullam sit ratione qui. Dolorum repellat tenetur, iste explicabo quidem quos labore aspernatur! Amet voluptates ea nisi doloribus veniam repellat officiis autem nostrum perspiciatis.</p>
-                        <button>More</button> 
-                    </div>
-                    <div class="feature">
-                        <div class="feature-title flex">
-                            <img src="img/icons/connected-icon.png" alt="connected-icon">
-                            <h2>Follow me on twitter, Facebook & pinterest</h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas fugiat ducimus molestias magni, quae velit obcaecati pariatur est a ipsa debitis exercitationem temporibus, ut dolores possimus amet tenetur dolorum illum officiis dolorem nemo, voluptatum ab. Debitis et obcaecati, nulla, numquam id amet tempora impedit! Perspiciatis, ea!</p>
-                        <button>More</button>
-                    </div>
+            </section> <!-- End page-title -->
+            <section class="portfolio-navigation">
+                <div class="container">
+                    <ul class="flex">
+                        <li class="active-nav-item">All</li>
+                        <li>Print</li>
+                        <li>Web</li>
+                        <li>Photoshop</li>
+                        <li>Wordpress</li>
+                    </ul>
                 </div> <!-- End container -->
-            </section> <!-- End features -->
+            </section> <!-- End portfolio-navigation -->
             <section class="portfolio">
                 <div class="container">
-                    <div class="portfolio-title flex-sb">
-                        <h2>Recent works</h2>
-                        <img src="img/title-fillup.png" alt="fill-up">
-                    </div>
                     <div class="portfolio-items flex">
                         <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
                             <img src="img/portfolio_images/portfolio-post1.jpg" alt="portfolio-item">
                             <div class="portfolio-item-label">
                                 <h3>Character design</h3>
@@ -101,6 +64,7 @@
                             </div>
                         </div>
                         <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
                             <img src="img/portfolio_images/portfolio-post2.jpg" alt="portfolio-item">
                             <div class="portfolio-item-label">
                                 <h3>Brochure design</h3>
@@ -108,6 +72,7 @@
                             </div>
                         </div>
                         <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
                             <img src="img/portfolio_images/portfolio-post3.jpg" alt="portfolio-item">
                             <div class="portfolio-item-label">
                                 <h3>Social media buttons</h3>
@@ -115,13 +80,78 @@
                             </div>
                         </div>
                         <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
                             <img src="img/portfolio_images/portfolio-post4.jpg" alt="portfolio-item">
                             <div class="portfolio-item-label">
                                 <h3>10 Amazing websites</h3>
                                 <p>June 15,2012</p>
                             </div>
                         </div>
-                    </div>  <!-- End portfolio-items -->
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post5.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Poster</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post6.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Web graphic element</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post7.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Brochure design</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post8.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Big buck bunny</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post9.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Cartoon characters</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post10.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Sticker design</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post11.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Business cards</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="portfolio-item.html"><img class="portfolio-inspect" src="img/portfolio-inspect.png" alt="inspect"></a>
+                            <img src="img/portfolio_images/portfolio-post12.jpg" alt="portfolio-item">
+                            <div class="portfolio-item-label">
+                                <h3>Slider plugin</h3>
+                                <p>June 15,2012</p>
+                            </div>
+                        </div>
+                    </div> <!-- End portfolio-items -->
                 </div> <!-- End container -->
             </section> <!-- End portfolio -->
         </div> <!-- End main-content -->
