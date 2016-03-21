@@ -264,8 +264,8 @@ h1, h2, h3, h4, h5, h6, p {
 .feature h2 {
     color: #e8663c;
     font-size: 1.125rem;
-    margin: 0;
-    margin-bottom: 20px;
+    word-spacing: 2px;
+    margin: 0 0 20px 0;
 }
 
 .feature p {
@@ -325,8 +325,10 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 10px;
 }
 
-.portfolio-item-label h3 {
+.portfolio-item-label h3 a {
+    text-decoration: none;
     color: #b9b9b9;
+    word-spacing: 2px;
 }
 
 .portfolio-item-label p {
@@ -412,6 +414,7 @@ p.time-ago {
     color: #fff;
     background: #e8603c;
     font-size: 1.5rem;
+    word-spacing: 2px;
     padding: 13px 0 13px 20px;
 }
 
@@ -619,6 +622,7 @@ aside p {
 .blog-item h3 {
     color: #e8603c;
     font-size: 1.125rem;
+    word-spacing: 2px;
     margin-bottom: 20px;
 }
 
