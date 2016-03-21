@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .portfolio-item {
     position: relative;
-    margin-bottom: 42px;
+    margin: 0 7px 42px 7px;
 }
 
 .portfolio-item img {
@@ -555,10 +555,6 @@ aside p {
     list-style: none;
     font-family: HelveticaNeue, arial;
     font-size: 0.75rem;
-}
-
-.categories li {
-    margin: 10px 0;
 }
 
 .categories a {
@@ -885,13 +881,13 @@ article.adress li span {
 
     .feature {
         max-width: 100%;
-        padding-bottom: 35px;
+        padding-bottom: 10px;
         border-bottom: 1px #999 solid;
-        margin-bottom: 35px;
+        margin-bottom: 10px;
     }
 
     .feature:first-child {
-        margin-top: 25px;
+        margin-top: 20px;
     }
 
     .feature:last-child {
@@ -900,7 +896,16 @@ article.adress li span {
     }
 
     .feature-title {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .feature-content button {
+        margin-left: 10px;
     }
 
     /*index.html - portfolio section*/
@@ -967,7 +972,7 @@ article.adress li span {
 
     .footer-item:nth-child(2) {
         padding: 0;
-        padding-bottom: 18px;
+        padding-bottom: 8px;
     }
 
     .footer-item:last-child {
@@ -976,13 +981,23 @@ article.adress li span {
 
     .footer-item {
         min-width: 80%;
-        padding-bottom: 18px;
+        padding-bottom: 8px;
         border-bottom: 1px solid #fff;
-        margin: 0 0 18px 0;
+        margin: 0 0 8px 0;
+    }
+
+    .footer-item h4 {
+        font-size: 1.25rem;
+        margin: 10px 0 10px 0;
+        word-spacing: 3px;
+    }
+
+    .footer-item p {
+        margin-top: 5px;
     }
 
     .footer-item3 {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
 }
 
@@ -1004,6 +1019,11 @@ article.adress li span {
 
     .about-article img{
         margin-bottom: 20px;
+    }
+
+    /*aside*/
+    .categories li {
+        margin: 10px 0;
     }
 }
 
