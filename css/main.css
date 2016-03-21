@@ -819,7 +819,7 @@ article.adress li span {
 }
 
 .contact-form input {
-    color: #e8603c;
+    font-family: HelveticaNeue, arial;
     padding: 10px;
     border: 1px solid #e8603c;
     margin-bottom: 10px;
@@ -828,7 +828,28 @@ article.adress li span {
 .submit input{
     color: #fff;
     background: #e8663c;
+    font-family: Bebas;
     margin-bottom: 50px;
+}
+
+::-webkit-input-placeholder {
+   color: #e8603c;
+   font-family: Bebas;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #e8603c;
+   font-family: Bebas;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #e8603c;
+   font-family: Bebas;  
+}
+
+:-ms-input-placeholder {  
+   color: #e8603c;
+   font-family: Bebas;  
 }
 
 /*====End contact.html====*/
